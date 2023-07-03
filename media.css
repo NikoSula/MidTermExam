@@ -1,0 +1,55 @@
+@media(width<=600px){
+    .navigation,
+    .first-button{
+        display: none;
+    }
+
+    .search-logo{
+        display: flex;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .header-line{
+        max-width: 85%;
+        min-width: 375px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 42px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+
+    .right-section{
+        height: 435px;
+        margin-top: 10px;
+    }
+
+    .footer-navigation ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email{
+        display: none;
+    }
+
+    footer{
+        min-width: 375px;
+        margin-left: 20px;
+    }
+
+    .mobile-line{
+        display: flex;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
