@@ -1,0 +1,88 @@
+@media(width<=600px){
+    .header-line{
+        display: none;
+    }
+
+    .internal-photo{
+        max-width: 500px;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+
+    .internal-right-section{
+        display: flex;
+        max-width: 580px;
+        margin: auto;
+        align-items: center;
+        height: 1200px;
+    }
+
+    .internal-section-one{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rows{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .couple{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    .second-row{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .lower-section{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 500px;
+        width: 400px;
+        margin: auto;
+        gap: 10px;
+    }
+
+    .no-need{
+        display: none;
+    }
+
+    .similar-ads{
+        width: 400px;
+        margin: auto;
+    }
+
+    .mobile-line{
+        display: flex;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .footer-navigation ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email{
+        display: none;
+    }
+
+    footer{
+        min-width: 375px;
+        margin-left: 20px;
+    }
+}
