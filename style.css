@@ -447,3 +447,32 @@ footer{
     max-width: 85%;
     margin: auto;
 }
+
+input[type="checkbox"]{
+    display: block;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"] + .label-text:before{
+    content: "\2713";
+    border: 1px solid black;
+    border-radius: 3px;
+    border-color: rgba(41, 178, 78, 1);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    padding-left: 3px;
+    padding-bottom:5px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    vertical-align: bottom;
+    color: transparent;
+}
+
+input[type="checkbox"]:checked + .label-text:before{
+    background-color: rgba(41, 178, 78, 1);
+    color: white;
+}
